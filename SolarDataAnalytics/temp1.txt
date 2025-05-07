@@ -1,0 +1,10 @@
+<TabItem Header="Daily Yield">
+    <lvc:CartesianChart x:Name="DailyYieldChart">
+        <lvc:CartesianChart.AxisX>
+            <lvc:Axis Title="Time of Day"/>
+        </lvc:CartesianChart.AxisX>
+        <lvc:CartesianChart.AxisY>
+            <lvc:Axis Title="Daily Yield (kWh)"/>
+        </lvc:CartesianChart.AxisY>
+    </lvc:CartesianChart>
+</TabItem>

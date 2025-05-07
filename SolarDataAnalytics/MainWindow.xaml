@@ -1,0 +1,88 @@
+﻿<Window x:Class="SolarEnergyAnalytics.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        Title="Solar Energy Dashboard" Height="800" Width="1000">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Control Panel -->
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+            <Button Content="Load Default Dataset" Width="150" Click="LoadDefaultDataButton_Click"/>
+            <Button Content="Browse Dataset..." Width="150" Margin="10,0,0,0" Click="BrowseDatasetButton_Click"/>
+      
+            <ProgressBar x:Name="DataLoadProgressBar" Width="150" Height="20" Margin="10,0,0,0" Visibility="Collapsed"/>
+            <ProgressBar x:Name="ChartRenderProgressBar" Width="150" Height="20" Margin="10,0,0,0" 
+                         Visibility="Collapsed" IsIndeterminate="True"/>
+        </StackPanel>
+
+        <!-- Data Grid -->
+        <DataGrid x:Name="DataGridView" Grid.Row="1" Height="200" AutoGenerateColumns="True" Margin="0,0,0,10"/>
+
+        <!-- Charts -->
+        <TabControl Grid.Row="2">
+            <TabItem Header="Line Chart - Daily Yield">
+                <lvc:CartesianChart x:Name="LineChart">
+                    <lvc:CartesianChart.AxisX>
+                        <lvc:Axis Title="Date"/>
+                    </lvc:CartesianChart.AxisX>
+                    <lvc:CartesianChart.AxisY>
+                        <lvc:Axis Title="Yield (kWh)"/>
+                    </lvc:CartesianChart.AxisY>
+                </lvc:CartesianChart>
+            </TabItem>
+
+            <TabItem Header="Bar Chart - Avg Power">
+                <lvc:CartesianChart x:Name="BarChart">
+                    <lvc:CartesianChart.AxisX>
+                        <lvc:Axis Title="Date"/>
+                    </lvc:CartesianChart.AxisX>
+                    <lvc:CartesianChart.AxisY>
+                        <lvc:Axis Title="Power"/>
+                    </lvc:CartesianChart.AxisY>
+                </lvc:CartesianChart>
+            </TabItem>
+
+            <TabItem Header="Pie Chart - AC Power Distribution">
+                <lvc:PieChart x:Name="PieChart"/>
+            </TabItem>
+            <TabItem Header="DC Power to AC Power Conversion Percentage">
+                <lvc:CartesianChart x:Name="LossChart">
+                    <lvc:CartesianChart.AxisX>
+                        <lvc:Axis Title="Date"/>
+                    </lvc:CartesianChart.AxisX>
+                    <lvc:CartesianChart.AxisY>
+                        <lvc:Axis Title="% Conversion" LabelFormatter="{Binding ConversionPercentageLabelFormatter}"/>
+                    </lvc:CartesianChart.AxisY>
+                </lvc:CartesianChart>
+            </TabItem>
+            <TabItem Header="DC Power for Sources">
+                <Grid>
+                    <!-- First Chart (First 11 Sources) -->
+                    <lvc:CartesianChart x:Name="DcPowerChart1" Grid.Row="0">
+                        <lvc:CartesianChart.AxisX>
+                            <lvc:Axis Title="Time of Day"/>
+                        </lvc:CartesianChart.AxisX>
+                        <lvc:CartesianChart.AxisY>
+                            <lvc:Axis Title="DC POWER (kW)"/>
+                        </lvc:CartesianChart.AxisY>
+                    </lvc:CartesianChart>
+
+                    <!-- Second Chart (Last 11 Sources) -->
+                    <lvc:CartesianChart x:Name="DcPowerChart2" Grid.Row="1">
+                        <lvc:CartesianChart.AxisX>
+                            <lvc:Axis Title="Time of Day"/>
+                        </lvc:CartesianChart.AxisX>
+                        <lvc:CartesianChart.AxisY>
+                            <lvc:Axis Title="DC POWER (kW)"/>
+                        </lvc:CartesianChart.AxisY>
+                    </lvc:CartesianChart>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

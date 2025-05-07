@@ -1,0 +1,40 @@
+﻿<Window x:Class="SolarEnergyManagment.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Loaded="Window_Loaded"
+        Title="Home Dashboard" Height="600" Width="1000"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*" />
+            <!-- 30% -->
+            <ColumnDefinition Width="7*" />
+            <!-- 70% -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Sidebar -->
+        <StackPanel Grid.Column="0" Background="#2D2D30" Height="Auto">
+            <TextBlock Text="Navigation" FontSize="20" Foreground="White" Margin="10"/>
+
+            <!-- Buttons for Navigation -->
+            <Button Content="AboutPage" Click="LaunchApp_Click" Tag="AboutPage\AboutPage.exe" Margin="10" Width="280" Height="40"/>
+            <Button Content="DataManagement" Click="LaunchApp_Click" Tag="DataManagement\DataManagement.exe" Margin="10" Width="280" Height="40"/>
+            <Button Content="Forecast And Analytics" Click="LaunchApp_Click" Tag="Forecast And Analytics\Forecast And Analytics.exe" Margin="10" Width="280" Height="40"/>
+            <Button Content="Inverter Failure Predicting" Click="LaunchApp_Click" Tag="Inverter Failure Predicting\Inverter Failure Predicting.exe" Margin="10" Width="280" Height="40"/>
+            <Button Content="Settings" Click="LaunchApp_Click" Tag="Settings\Settings.exe" Margin="10" Width="280" Height="40"/>
+            <Button Content="SimpleChatBot" Click="LaunchApp_Click" Tag="SimpleChatBot\SimpleChatBot.exe" Margin="10" Width="280" Height="40"/>
+            <Button Content="SolarDataAnalytics" Click="LaunchApp_Click" Tag="SolarDataAnalytics\SolarDataAnalytics.exe" Margin="10" Width="280" Height="40"/>
+        </StackPanel>
+
+        <!-- Video area -->
+        <MediaElement Name="HomeVideo"
+              Grid.Column="1"
+              LoadedBehavior="Manual"
+              UnloadedBehavior="Manual"
+              Stretch="Fill"
+              IsMuted="True"
+              Source="C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\2249554-uhd_3840_2160_24fps.mp4"
+              MediaEnded="HomeVideo_MediaEnded" />
+    </Grid>
+</Window>

@@ -1,0 +1,140 @@
+<TabItem Header="Weather Data - Irradiation and Temperature">
+    <Grid>
+        <lvc:CartesianChart x:Name="IrradiationChart">
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis Title="Time" LabelsRotation="45"/>
+            </lvc:CartesianChart.AxisX>
+            <lvc:CartesianChart.AxisY>
+                <lvc:Axis Title="Irradiation (W/m²)"/>
+            </lvc:CartesianChart.AxisY>
+        </lvc:CartesianChart>
+
+        <lvc:CartesianChart x:Name="TemperatureChart">
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis Title="Time" LabelsRotation="45"/>
+            </lvc:CartesianChart.AxisX>
+            <lvc:CartesianChart.AxisY>
+                <lvc:Axis Title="Temperature (°C)"/>
+            </lvc:CartesianChart.AxisY>
+        </lvc:CartesianChart>
+
+    </Grid>
+</TabItem>
+
+
+
+    // Update charts with weather data (Irradiation & Temperature)
+    // Update charts with weather data (Irradiation & Temperature)
+    private void UpdateWeatherCharts()
+    {
+        if (_weatherDataList == null || !_weatherDataList.Any())
+            return;
+
+        // Extract data from the weather data list
+        var dateTimes = _weatherDataList.Select(d => d.DATE_TIME).ToArray();
+        var irradiationValues = _weatherDataList.Select(w => w.IRRADIATION).ToList();
+        var ambientTemperatures = _weatherDataList.Select(w => w.AMBIENT_TEMPERATURE).ToList();
+        var moduleTemperatures = _weatherDataList.Select(w => w.MODULE_TEMPERATURE).ToList();
+
+        // Update Irradiation chart
+        IrradiationChart.Series = new SeriesCollection
+{
+    new LineSeries
+    {
+        Title = "Irradiation",
+        Values = new ChartValues<double>(irradiationValues),
+        PointGeometry = DefaultGeometries.Circle,
+        PointGeometrySize = 4
+    }
+};
+
+        // Format the X-axis labels for Irradiation chart
+        IrradiationChart.AxisX[0].Labels = dateTimes.Select(d => d.ToString("MM-dd HH:mm")).ToArray();
+
+        // Update Temperature chart (Ambient and Module Temperature)
+        TemperatureChart.Series = new SeriesCollection
+{
+    new LineSeries
+    {
+        Title = "Ambient Temp",
+        Values = new ChartValues<double>(ambientTemperatures),
+        PointGeometry = DefaultGeometries.Circle,
+        PointGeometrySize = 4
+    },
+    new LineSeries
+    {
+        Title = "Module Temp",
+        Values = new ChartValues<double>(moduleTemperatures),
+        PointGeometry = DefaultGeometries.Circle,
+        PointGeometrySize = 4
+    }
+};
+
+        // Format the X-axis labels for Temperature chart
+        TemperatureChart.AxisX[0].Labels = dateTimes.Select(d => d.ToString("MM-dd HH:mm")).ToArray();
+    }
+
+
+///
+
+
+private void PlotWeatherData()
+{
+    // Create a copy of the weather data
+    var weatherData = _solarDataList.ToList(); // Assuming _solarDataList contains weather data
+
+    // Group by Date (assuming you have 'DateTime' as the datetime field)
+    var irradiationData = weatherData.Select(x => new
+    {
+        x.Date,
+        x.Irradiation
+    }).ToList();
+
+    var temperatureData = weatherData.Select(x => new
+    {
+        x.Date,
+        x.AmbientTemperature,
+        x.ModuleTemperature
+    }).ToList();
+
+    // Create SeriesCollection for the charts
+    var irradiationSeries = new LineSeries
+    {
+        Title = "Irradiation",
+        Values = new ChartValues<double>(irradiationData.Select(x => x.Irradiation).ToList()),
+        PointGeometrySize = 5,
+        StrokeThickness = 2
+    };
+
+    var ambientTemperatureSeries = new LineSeries
+    {
+        Title = "Ambient Temperature",
+        Values = new ChartValues<double>(temperatureData.Select(x => x.AmbientTemperature).ToList()),
+        PointGeometrySize = 5,
+        StrokeThickness = 2
+    };
+
+    var moduleTemperatureSeries = new LineSeries
+    {
+        Title = "Module Temperature",
+        Values = new ChartValues<double>(temperatureData.Select(x => x.ModuleTemperature).ToList()),
+        PointGeometrySize = 5,
+        StrokeThickness = 2
+    };
+
+    // Set the series for the chart
+    IrradiationChart.Series = new SeriesCollection { irradiationSeries };
+    TemperatureChart.Series = new SeriesCollection { ambientTemperatureSeries, moduleTemperatureSeries };
+
+    // Set the X Axis labels (assuming Date is available in the data)
+    var timeLabels = weatherData.Select(x => x.Date.ToString("yyyy-MM-dd HH:mm")).ToList();
+    IrradiationChart.AxisX[0].Labels = timeLabels;
+    TemperatureChart.AxisX[0].Labels = timeLabels;
+
+    // Set chart titles and axis labels
+    IrradiationChart.AxisY[0].Title = "Irradiation (W/m²)";
+    IrradiationChart.AxisX[0].Title = "Date & Time";
+
+    TemperatureChart.AxisY[0].Title = "Temperature (°C)";
+    TemperatureChart.AxisX[0].Title = "Date & Time";
+}

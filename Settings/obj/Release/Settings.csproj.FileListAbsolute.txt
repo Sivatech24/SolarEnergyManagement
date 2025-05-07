@@ -1,0 +1,15 @@
+C:\Users\tech\Documents\Visual Studio Works\Settings\bin\Release\Settings.exe.config
+C:\Users\tech\Documents\Visual Studio Works\Settings\bin\Release\Settings.exe
+C:\Users\tech\Documents\Visual Studio Works\Settings\bin\Release\Settings.pdb
+C:\Users\tech\Documents\Visual Studio Works\Settings\obj\Release\Settings.csproj.AssemblyReference.cache
+C:\Users\tech\Documents\Visual Studio Works\Settings\obj\Release\MainWindow.g.cs
+C:\Users\tech\Documents\Visual Studio Works\Settings\obj\Release\App.g.cs
+C:\Users\tech\Documents\Visual Studio Works\Settings\obj\Release\Settings_MarkupCompile.cache
+C:\Users\tech\Documents\Visual Studio Works\Settings\obj\Release\Settings_MarkupCompile.lref
+C:\Users\tech\Documents\Visual Studio Works\Settings\obj\Release\MainWindow.baml
+C:\Users\tech\Documents\Visual Studio Works\Settings\obj\Release\Settings.g.resources
+C:\Users\tech\Documents\Visual Studio Works\Settings\obj\Release\Settings.Properties.Resources.resources
+C:\Users\tech\Documents\Visual Studio Works\Settings\obj\Release\Settings.csproj.GenerateResource.cache
+C:\Users\tech\Documents\Visual Studio Works\Settings\obj\Release\Settings.csproj.CoreCompileInputs.cache
+C:\Users\tech\Documents\Visual Studio Works\Settings\obj\Release\Settings.exe
+C:\Users\tech\Documents\Visual Studio Works\Settings\obj\Release\Settings.pdb

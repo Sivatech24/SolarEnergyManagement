@@ -1,0 +1,87 @@
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\obj\Debug\Inverter Failure Predicting.csproj.AssemblyReference.cache
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\obj\Debug\App.g.cs
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\obj\Debug\Inverter Failure Predicting_Content.g.cs
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\obj\Debug\Inverter Failure Predicting_MarkupCompile.cache
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\libHarfBuzzSharp.dylib
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\x86\libHarfBuzzSharp.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\x64\libHarfBuzzSharp.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\arm64\libHarfBuzzSharp.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\libSkiaSharp.dylib
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\x86\libSkiaSharp.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\x64\libSkiaSharp.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\arm64\libSkiaSharp.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\x64\libHarfBuzzSharp.so
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\arm\libHarfBuzzSharp.so
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\arm64\libHarfBuzzSharp.so
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\musl-x64\libHarfBuzzSharp.so
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\x64\libSkiaSharp.so
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\arm\libSkiaSharp.so
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\arm64\libSkiaSharp.so
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\musl-x64\libSkiaSharp.so
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\Inverter Failure Predicting.exe.config
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\Inverter Failure Predicting.exe
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\Inverter Failure Predicting.pdb
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\CsvHelper.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\GLWpfControl.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\HarfBuzzSharp.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\LiveCharts.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\OpenTK.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\OxyPlot.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\OxyPlot.Wpf.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\OxyPlot.Wpf.Shared.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\ScottPlot.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\ScottPlot.WPF.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\SkiaSharp.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\SkiaSharp.HarfBuzz.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\SkiaSharp.Views.Desktop.Common.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\SkiaSharp.Views.WPF.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\System.Buffers.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\System.Drawing.Common.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\System.Memory.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\System.ValueTuple.dll
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\CsvHelper.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\GLWpfControl.pdb
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\HarfBuzzSharp.pdb
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\HarfBuzzSharp.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\LiveCharts.pdb
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\LiveCharts.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\OpenTK.pdb
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\OpenTK.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\OxyPlot.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\OxyPlot.Wpf.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\OxyPlot.Wpf.Shared.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\ScottPlot.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\ScottPlot.WPF.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\SkiaSharp.pdb
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\SkiaSharp.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\SkiaSharp.HarfBuzz.pdb
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\SkiaSharp.HarfBuzz.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\SkiaSharp.Views.Desktop.Common.pdb
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\SkiaSharp.Views.Desktop.Common.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\SkiaSharp.Views.WPF.pdb
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\SkiaSharp.Views.WPF.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\System.Buffers.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\System.Memory.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\bin\Debug\System.ValueTuple.xml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\obj\Debug\MainWindow.baml
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\obj\Debug\MainWindow.g.cs
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\obj\Debug\Inverter Failure Predicting.g.resources
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\obj\Debug\Inverter_Failure_Predicting.Properties.Resources.resources
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\obj\Debug\Inverter Failure Predicting.csproj.GenerateResource.cache
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\obj\Debug\Inverter Failure Predicting.csproj.CoreCompileInputs.cache
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\obj\Debug\Inverter.5ADDBECC.Up2Date
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\obj\Debug\Inverter Failure Predicting.exe
+C:\Users\tech\Documents\Visual Studio Works\Inverter Failure Predicting\obj\Debug\Inverter Failure Predicting.pdb

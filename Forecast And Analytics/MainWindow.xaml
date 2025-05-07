@@ -1,0 +1,50 @@
+﻿<Window x:Class="Forecast_And_Analytics.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        xmlns:local="clr-namespace:Forecast_And_Analytics"
+        mc:Ignorable="d"
+        Title="Forecast And Analytics" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Controls for loading CSV and Progress -->
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="0 10 0 10">
+            <Button Name="LoadCsvButton" Content="Load CSV" Width="100" Click="LoadCsv_Click"/>
+            <ProgressBar Name="ProcessingBar" Width="200" Height="20" Margin="10 0" Visibility="Collapsed"/>
+            <TextBlock Name="EstimatedTimeText" Margin="10 0" VerticalAlignment="Center"/>
+        </StackPanel>
+
+        <!-- ComboBox for selecting number of days to predict -->
+        <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="0 10 0 10">
+            <TextBlock Text="Select Number of Days to Predict:" VerticalAlignment="Center" Margin="0 0 10 0"/>
+            <ComboBox Name="PredictionDaysComboBox" Width="100">
+                <ComboBoxItem Content="1" IsSelected="True"/>
+                <ComboBoxItem Content="3"/>
+                <ComboBoxItem Content="5"/>
+                <ComboBoxItem Content="7"/>
+            </ComboBox>
+            <Button Name="PredictButton" Content="Predict" Width="100" Click="PredictButton_Click"/>
+        </StackPanel>
+
+        <!-- Chart for Displaying Forecast -->
+        <lvc:CartesianChart Name="ForecastChart" Grid.Row="2" Height="300" LegendLocation="Right" Margin="0 10 0 10">
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis Title="Day"/>
+            </lvc:CartesianChart.AxisX>
+            <lvc:CartesianChart.AxisY>
+                <lvc:Axis Title="Daily Yield (kWh)"/>
+            </lvc:CartesianChart.AxisY>
+        </lvc:CartesianChart>
+
+        <!-- Explanation Text Block -->
+        <TextBlock Name="ExplanationText" Grid.Row="3" TextWrapping="Wrap" Margin="0 10 0 0" FontSize="14"/>
+    </Grid>
+</Window>

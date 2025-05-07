@@ -1,0 +1,14 @@
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Debug\AboutPage.csproj.AssemblyReference.cache
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Debug\App.g.cs
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Debug\AboutPage_MarkupCompile.cache
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Debug\MainWindow.baml
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Debug\MainWindow.g.cs
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Debug\AboutPage.g.resources
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Debug\AboutPage.Properties.Resources.resources
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Debug\AboutPage.csproj.GenerateResource.cache
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Debug\AboutPage.csproj.CoreCompileInputs.cache
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\bin\Debug\AboutPage.exe.config
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\bin\Debug\AboutPage.exe
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\bin\Debug\AboutPage.pdb
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Debug\AboutPage.exe
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Debug\AboutPage.pdb

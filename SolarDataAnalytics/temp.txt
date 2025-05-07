@@ -1,0 +1,79 @@
+<TabItem Header="DC Power - Sources">
+    <lvc:CartesianChart x:Name="DcPowerChart">
+        <lvc:CartesianChart.AxisX>
+            <lvc:Axis Title="Time of Day"/>
+        </lvc:CartesianChart.AxisX>
+        <lvc:CartesianChart.AxisY>
+            <lvc:Axis Title="DC POWER (kW)"/>
+        </lvc:CartesianChart.AxisY>
+    </lvc:CartesianChart>
+</TabItem>
+
+private async void PlotDcPowerForSources()
+{
+    // Check if there is any data to process
+    if (_solarDataList == null || !_solarDataList.Any())
+    {
+        MessageBox.Show("No data available for plotting DC power.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+        return;
+    }
+
+    // Run the processing in the background thread to avoid blocking the UI thread
+    await Task.Run(() =>
+    {
+        // Process data in the background thread
+        var sources = _solarDataList.ToList();
+
+        // Extract time part from DateTime for the sources
+        var sourcesWithTime = sources.Select(x => new
+        {
+            x.DcPower,
+            x.SourceKey,
+            Time = x.Date.TimeOfDay // Extract only the time part
+        }).ToList();
+
+        // Group by SourceKey
+        var groupedSources = sourcesWithTime
+            .GroupBy(x => x.SourceKey)
+            .Select(g => new
+            {
+                SourceKey = g.Key,
+                Data = g.OrderBy(x => x.Time).ToList() // Sort by time for each source
+            })
+            .ToList();
+
+        // Update the UI on the main thread
+        this.Dispatcher.BeginInvoke(new Action(() =>
+        {
+            // Clear existing chart data if any
+            DcPowerChart.Series.Clear();
+
+            foreach (var group in groupedSources)
+            {
+                // Create a new LineSeries for each source without using SeriesCollection
+                var series = new LineSeries
+                {
+                    Title = group.SourceKey,
+                    Values = new ChartValues<double>(group.Data.Select(x => x.DcPower)),
+                    PointGeometrySize = 5,
+                    StrokeThickness = 2
+                };
+
+                // Add the series directly to the chart
+                DcPowerChart.Series.Add(series);
+            }
+
+            // Set the X Axis labels (time)
+            DcPowerChart.AxisX[0].Labels = groupedSources
+                .SelectMany(g => g.Data)
+                .Select(x => x.Time.ToString(@"hh\:mm"))
+                .Distinct()
+                .ToList();
+
+            // Set chart title and axis labels
+            DcPowerChart.AxisY[0].Title = "DC POWER (kW)";
+            DcPowerChart.AxisX[0].Title = "Time of Day";
+            DcPowerChart.AxisY[0].LabelFormatter = value => value.ToString("0.##"); // Format for Y axis
+        }));
+    });
+}

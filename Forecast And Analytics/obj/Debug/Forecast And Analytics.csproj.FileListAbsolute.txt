@@ -1,0 +1,22 @@
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\bin\Debug\Forecast And Analytics.exe.config
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\bin\Debug\Forecast And Analytics.exe
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\bin\Debug\Forecast And Analytics.pdb
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\bin\Debug\LiveCharts.dll
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\bin\Debug\LiveCharts.pdb
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\bin\Debug\LiveCharts.xml
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\obj\Debug\Forecast And Analytics.csproj.AssemblyReference.cache
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\obj\Debug\MainWindow.g.cs
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\obj\Debug\App.g.cs
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\obj\Debug\Forecast And Analytics_MarkupCompile.cache
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\obj\Debug\Forecast And Analytics_MarkupCompile.lref
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\obj\Debug\MainWindow.baml
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\obj\Debug\Forecast And Analytics.g.resources
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\obj\Debug\Forecast_And_Analytics.Properties.Resources.resources
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\obj\Debug\Forecast And Analytics.csproj.GenerateResource.cache
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\obj\Debug\Forecast And Analytics.csproj.CoreCompileInputs.cache
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\obj\Debug\Forecast.9150841D.Up2Date
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\obj\Debug\Forecast And Analytics.exe
+C:\Users\tech\Documents\Visual Studio Works\Forecast And Analytics\obj\Debug\Forecast And Analytics.pdb

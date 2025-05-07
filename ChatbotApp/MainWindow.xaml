@@ -1,0 +1,24 @@
+﻿<Window x:Class="ChatbotApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatbotApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Chatbox where chat messages appear -->
+        <ListBox x:Name="ChatBox" Grid.Row="0" FontSize="16" />
+
+        <!-- Text input for user -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,10,0,0">
+            <TextBox x:Name="UserInput" Width="600" Height="30" FontSize="16" />
+            <Button Content="Send" Width="100" Height="30" Margin="10,0,0,0" Click="SendButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

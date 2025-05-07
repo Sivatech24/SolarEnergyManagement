@@ -1,0 +1,124 @@
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\2249554-uhd_3840_2160_24fps.mp4
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\AboutPage\2249554-uhd_3840_2160_24fps.mp4
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\AboutPage\AboutPage.exe
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\AboutPage\AboutPage.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\DataManagement\CsvHelper.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Forecast And Analytics\Forecast And Analytics.exe
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Forecast And Analytics\Forecast And Analytics.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Forecast And Analytics\LiveCharts.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Forecast And Analytics\LiveCharts.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Forecast And Analytics\LiveCharts.Wpf.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Forecast And Analytics\LiveCharts.Wpf.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\arm64\libHarfBuzzSharp.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\arm64\libSkiaSharp.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\CsvHelper.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\GLWpfControl.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\GLWpfControl.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\HarfBuzzSharp.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\HarfBuzzSharp.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\Inverter Failure Predicting.exe
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\Inverter Failure Predicting.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\LiveCharts.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\LiveCharts.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\LiveCharts.Wpf.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\LiveCharts.Wpf.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\Microsoft.Bcl.HashCode.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\OpenTK.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\OpenTK.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\OxyPlot.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\OxyPlot.Wpf.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\OxyPlot.Wpf.Shared.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\ScottPlot.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\ScottPlot.WPF.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\SkiaSharp.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\SkiaSharp.HarfBuzz.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\SkiaSharp.HarfBuzz.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\SkiaSharp.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\SkiaSharp.Views.Desktop.Common.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\SkiaSharp.Views.Desktop.Common.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\SkiaSharp.Views.WPF.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\SkiaSharp.Views.WPF.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\System.Buffers.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\System.Drawing.Common.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\System.Memory.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\System.Numerics.Vectors.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\System.Threading.Tasks.Extensions.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\System.ValueTuple.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\x64\libHarfBuzzSharp.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\x64\libSkiaSharp.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\x86\libHarfBuzzSharp.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\x86\libSkiaSharp.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Settings\Settings.exe
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Settings\Settings.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SimpleChatBot\CsvHelper.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SolarDataAnalytics\CsvHelper.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SolarDataAnalytics\LiveCharts.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SolarDataAnalytics\LiveCharts.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SolarDataAnalytics\LiveCharts.Wpf.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SolarDataAnalytics\LiveCharts.Wpf.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SolarDataAnalytics\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SolarDataAnalytics\Microsoft.Bcl.HashCode.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SolarDataAnalytics\SolarDataAnalytics.exe
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SolarDataAnalytics\SolarDataAnalytics.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SolarDataAnalytics\System.Buffers.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SolarDataAnalytics\System.Memory.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SolarDataAnalytics\System.Numerics.Vectors.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SolarDataAnalytics\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SolarDataAnalytics\System.Threading.Tasks.Extensions.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SimpleChatBot\LiveCharts.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SimpleChatBot\LiveCharts.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SimpleChatBot\LiveCharts.Wpf.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SimpleChatBot\LiveCharts.Wpf.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SimpleChatBot\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SimpleChatBot\Microsoft.Bcl.HashCode.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SimpleChatBot\SimpleChatBot.exe
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SimpleChatBot\SimpleChatBot.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SimpleChatBot\System.Buffers.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SimpleChatBot\System.Memory.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SimpleChatBot\System.Numerics.Vectors.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SimpleChatBot\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SimpleChatBot\System.Threading.Tasks.Extensions.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\DataManagement\DataManagement.exe
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\DataManagement\DataManagement.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\DataManagement\MathNet.Numerics.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\DataManagement\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\DataManagement\Microsoft.Bcl.HashCode.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\DataManagement\System.Buffers.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\DataManagement\System.Memory.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\DataManagement\System.Numerics.Vectors.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\DataManagement\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\DataManagement\System.Threading.Tasks.Extensions.dll
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\AboutPage\AboutPage.exe.config
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\DataManagement\DataManagement.exe.config
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Forecast And Analytics\Forecast And Analytics.exe.config
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\arm64\libHarfBuzzSharp.so
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\arm64\libSkiaSharp.so
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\arm\libHarfBuzzSharp.so
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\arm\libSkiaSharp.so
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\Inverter Failure Predicting.exe.config
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\libHarfBuzzSharp.dylib
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\libSkiaSharp.dylib
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\musl-x64\libHarfBuzzSharp.so
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\musl-x64\libSkiaSharp.so
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\x64\libHarfBuzzSharp.so
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Inverter Failure Predicting\x64\libSkiaSharp.so
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\Settings\Settings.exe.config
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SimpleChatBot\SimpleChatBot.exe.config
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SolarDataAnalytics\SolarDataAnalytics.exe.config
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SolarEnergyManagment.exe.config
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SolarEnergyManagment.exe
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\bin\Release\SolarEnergyManagment.pdb
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\obj\Release\SolarEnergyManagment.csproj.AssemblyReference.cache
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\obj\Release\MainWindow.baml
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\obj\Release\MainWindow.g.cs
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\obj\Release\App.g.cs
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\obj\Release\SolarEnergyManagment_Content.g.cs
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\obj\Release\SolarEnergyManagment_MarkupCompile.cache
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\obj\Release\SolarEnergyManagment.g.resources
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\obj\Release\SolarEnergyManagment.Properties.Resources.resources
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\obj\Release\SolarEnergyManagment.csproj.GenerateResource.cache
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\obj\Release\SolarEnergyManagment.csproj.CoreCompileInputs.cache
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\obj\Release\SolarEnergyManagment.exe
+C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\obj\Release\SolarEnergyManagment.pdb

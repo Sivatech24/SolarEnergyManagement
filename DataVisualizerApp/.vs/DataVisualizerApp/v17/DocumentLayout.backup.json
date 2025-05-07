@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tech\\Documents\\Visual Studio Works\\DataVisualizerApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6029BF29-187C-4291-981A-04429AE4C249}|DataVisualizerApp.csproj|c:\\users\\tech\\documents\\visual studio works\\datavisualizerapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6029BF29-187C-4291-981A-04429AE4C249}|DataVisualizerApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6029BF29-187C-4291-981A-04429AE4C249}|DataVisualizerApp.csproj|c:\\users\\tech\\documents\\visual studio works\\datavisualizerapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6029BF29-187C-4291-981A-04429AE4C249}|DataVisualizerApp.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6029BF29-187C-4291-981A-04429AE4C249}|DataVisualizerApp.csproj|c:\\users\\tech\\documents\\visual studio works\\datavisualizerapp\\obj\\debug\\mainwindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6029BF29-187C-4291-981A-04429AE4C249}|DataVisualizerApp.csproj|solutionrelative:obj\\debug\\mainwindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\tech\\Documents\\Visual Studio Works\\DataVisualizerApp\\obj\\Debug\\MainWindow.g.i.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\MainWindow.g.i.cs",
+              "ToolTip": "C:\\Users\\tech\\Documents\\Visual Studio Works\\DataVisualizerApp\\obj\\Debug\\MainWindow.g.i.cs",
+              "RelativeToolTip": "obj\\Debug\\MainWindow.g.i.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T10:12:43.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\tech\\Documents\\Visual Studio Works\\DataVisualizerApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\tech\\Documents\\Visual Studio Works\\DataVisualizerApp\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-02T10:08:32.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tech\\Documents\\Visual Studio Works\\DataVisualizerApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\tech\\Documents\\Visual Studio Works\\DataVisualizerApp\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "MainWindow.xaml.cs*",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwDoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T10:08:31.373Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

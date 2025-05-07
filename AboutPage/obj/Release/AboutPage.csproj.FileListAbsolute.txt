@@ -1,0 +1,16 @@
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\bin\Release\AboutPage.exe.config
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\bin\Release\AboutPage.exe
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\bin\Release\AboutPage.pdb
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Release\AboutPage.csproj.AssemblyReference.cache
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Release\MainWindow.baml
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Release\MainWindow.g.cs
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Release\App.g.cs
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Release\AboutPage_MarkupCompile.cache
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Release\AboutPage.g.resources
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Release\AboutPage.Properties.Resources.resources
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Release\AboutPage.csproj.GenerateResource.cache
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Release\AboutPage.csproj.CoreCompileInputs.cache
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Release\AboutPage.exe
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Release\AboutPage.pdb
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Release\AboutPage_Content.g.cs
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\bin\Release\2249554-uhd_3840_2160_24fps.mp4

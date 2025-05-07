@@ -1,0 +1,17 @@
+﻿<Window x:Class="DataVisualizerApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:oxy="http://oxyplot.org/wpf"
+        Title="Data Visualizer" Height="700" Width="1000">
+    <DockPanel Margin="10">
+        <!-- Top Buttons -->
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" HorizontalAlignment="Left">
+            <Button Content="Browse CSV" Padding="10" Click="BrowseCsv_Click"/>
+        </StackPanel>
+
+        <!-- Chart Container (Scrollable) -->
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel x:Name="ChartContainer" Orientation="Vertical" />
+        </ScrollViewer>
+    </DockPanel>
+</Window>
