@@ -1,0 +1,20 @@
+INSTALLATION SUCCESSFUL
+
+Solar Energy Management System has been installed.
+
+LICENSE:
+This software is licensed under the Apache License, Version 2.0. See LICENSE.txt for full details.
+
+Modules included:
+- SolarDataAnalytics
+- Forecast And Analytics
+- SimpleChatBot
+- Inverter Failure Predicting
+- Settings
+- AboutPage
+
+You can launch the application from the Start Menu or the installation folder.
+
+For support, visit: [https://sivatech24.github.io/solar-power-dashboard-analysis/]
+
+Thank you for using our software!

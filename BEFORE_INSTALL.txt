@@ -1,0 +1,12 @@
+BEFORE INSTALLING
+
+Please review the LICENSE.txt file. This software is licensed under the Apache License, Version 2.0.
+
+Pre-installation Checklist:
+- .NET Framework 4.8 or later must be installed.
+- Windows 10 or later is required.
+- At least 8GB RAM is recommended.
+- Please close all other applications.
+- Run the installer as Administrator.
+
+By proceeding, you accept the Apache 2.0 License terms.
