@@ -3,18 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\tech\\Documents\\Visual Studio Works\\SolarEnergyManagment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SolarEnergyManagment||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{077144B1-C287-4014-92DB-AB73B1A1BF44}|SolarEnergyManagment.csproj|C:\\Users\\tech\\Documents\\Visual Studio Works\\SolarEnergyManagment\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{077144B1-C287-4014-92DB-AB73B1A1BF44}|SolarEnergyManagment.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|SolarEnergyManagment||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{077144B1-C287-4014-92DB-AB73B1A1BF44}|SolarEnergyManagment.csproj|c:\\users\\tech\\documents\\visual studio works\\solarenergymanagment\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{077144B1-C287-4014-92DB-AB73B1A1BF44}|SolarEnergyManagment.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{077144B1-C287-4014-92DB-AB73B1A1BF44}|SolarEnergyManagment.csproj|c:\\users\\tech\\documents\\visual studio works\\solarenergymanagment\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
+      "AbsoluteMoniker": "D:0:0:{077144B1-C287-4014-92DB-AB73B1A1BF44}|SolarEnergyManagment.csproj|c:\\users\\tech\\documents\\visual studio works\\solarenergymanagment\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,23 +24,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SolarEnergyManagment",
               "DocumentMoniker": "C:\\Users\\tech\\Documents\\Visual Studio Works\\SolarEnergyManagment\\SolarEnergyManagment.csproj",
               "RelativeDocumentMoniker": "SolarEnergyManagment.csproj",
               "ToolTip": "C:\\Users\\tech\\Documents\\Visual Studio Works\\SolarEnergyManagment\\SolarEnergyManagment.csproj",
               "RelativeToolTip": "SolarEnergyManagment.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-07T08:01:36.336Z",
+              "WhenOpened": "2025-05-20T14:31:42.641Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\tech\\Documents\\Visual Studio Works\\SolarEnergyManagment\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -58,7 +58,7 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\tech\\Documents\\Visual Studio Works\\SolarEnergyManagment\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAcwGcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAH0AAAAAAAAAAADwv5YAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T12:03:05.7Z",
               "EditorCaption": ""

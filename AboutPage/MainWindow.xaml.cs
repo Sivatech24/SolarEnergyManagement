@@ -24,12 +24,9 @@ namespace AboutPage
         public MainWindow()
         {
             InitializeComponent();
-            // Ensure that the video source is set properly before playing
-            BackgroundVideo.Source = new Uri(@"C:\Users\tech\Documents\Visual Studio Works\AboutPage\2249554-uhd_3840_2160_24fps.mp4");
-            BackgroundVideo.Position = TimeSpan.Zero;
-            // Start the video once the window is loaded
-            BackgroundVideo.Play();
-            
+            // BackgroundVideo.Position = TimeSpan.Zero;
+            // BackgroundVideo.Play();
+
         }
         private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {
@@ -41,8 +38,8 @@ namespace AboutPage
         private void BackgroundVideo_MediaEnded(object sender, RoutedEventArgs e)
         {
             // Loop the video
-            BackgroundVideo.Position = TimeSpan.Zero; // Reset the video to the start
-            BackgroundVideo.Play(); // Play it again
+            // BackgroundVideo.Position = TimeSpan.Zero; // Reset the video to the start
+            // BackgroundVideo.Play(); // Play it again
         }
 
     }

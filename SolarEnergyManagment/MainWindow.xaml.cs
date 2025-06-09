@@ -27,10 +27,33 @@ namespace SolarEnergyManagment
             InitializeComponent();
         }
 
-        // Event handler to loop the video when it ends
-        private void Window_Loaded(object sender, RoutedEventArgs e)
+        private void HomeImage_Loaded(object sender, RoutedEventArgs e)
         {
-            HomeVideo.Play(); // Safe because LoadedBehavior is Manual
+            RenderOptions.SetBitmapScalingMode(HomeImage, BitmapScalingMode.HighQuality);
+            string imagePath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Images", "dashboard.jpg");
+            if (File.Exists(imagePath))
+            {
+                HomeImage.Source = new BitmapImage(new Uri(imagePath));
+            }
+            else
+            {
+                MessageBox.Show("Image file not found:\n" + imagePath, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        // Event handler to loop the video when it ends
+        /*private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            string videoPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Video", "2249554-uhd_3840_2160_24fps.mp4");
+            if (File.Exists(videoPath))
+            {
+                HomeVideo.Source = new Uri(videoPath);
+                HomeVideo.Play();
+            }
+            else
+            {
+                MessageBox.Show("Video file not found:\n" + videoPath, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
         private void HomeVideo_MediaEnded(object sender, RoutedEventArgs e)
@@ -39,7 +62,7 @@ namespace SolarEnergyManagment
             HomeVideo.Play();
         }
 
-
+        */
 
         // Event handler for launching the app (you'll need to implement this method)
         private void LaunchApp_Click(object sender, RoutedEventArgs e)
@@ -87,6 +110,11 @@ namespace SolarEnergyManagment
             StartApp(@"C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\AboutPage\AboutPage.exe");
         }
 
+        private void OpenRealTime_Click(object sender, RoutedEventArgs e)
+        {
+            StartApp(@"C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\RealTime\RealTimeRender.exe");
+        }
+
         private void StartApp(string path)
         {
             if (File.Exists(path))
@@ -100,6 +128,25 @@ namespace SolarEnergyManagment
             else
             {
                 MessageBox.Show("Application not found:\n" + path, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+
+        private void OpenUrl_Click(object sender, RoutedEventArgs e)
+        {
+            if (sender is Button button && button.Tag is string url)
+            {
+                try
+                {
+                    Process.Start(new ProcessStartInfo
+                    {
+                        FileName = url,
+                        UseShellExecute = true
+                    });
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Failed to open URL:\n" + url + "\n\n" + ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
             }
         }
     }

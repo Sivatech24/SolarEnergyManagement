@@ -6,15 +6,14 @@
         <Grid Background="#F7FAFC" Margin="20">
 
             <!-- Background video element -->
-            <MediaElement Name="BackgroundVideo"
-                          Source="C:\Users\tech\Documents\Visual Studio Works\AboutPage\2249554-uhd_3840_2160_24fps.mp4"
-                          Stretch="UniformToFill"
-                          IsMuted="True"
-                          LoadedBehavior="Manual"
-                          UnloadedBehavior="Manual"
-                          VerticalAlignment="Stretch"
-                          HorizontalAlignment="Stretch"
-                          MediaEnded="BackgroundVideo_MediaEnded" />
+            <!-- Background image element -->
+            <Image Name="BackgroundImage"
+                Source="Images/background.jpg"
+                Stretch="UniformToFill"
+                VerticalAlignment="Stretch"
+                HorizontalAlignment="Stretch"
+                Panel.ZIndex="-1"
+                RenderOptions.BitmapScalingMode="HighQuality"/>
 
             <!-- Main content container -->
             <StackPanel VerticalAlignment="Top" HorizontalAlignment="Stretch">

@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tech\\Documents\\Visual Studio Works\\Solar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27F46300-2218-40C5-8DD8-B9C3DF2B09C0}|Solar.csproj|c:\\users\\tech\\documents\\visual studio works\\solar\\views\\dashboardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F46300-2218-40C5-8DD8-B9C3DF2B09C0}|Solar.csproj|solutionrelative:views\\dashboardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F46300-2218-40C5-8DD8-B9C3DF2B09C0}|Solar.csproj|c:\\users\\tech\\documents\\visual studio works\\solar\\views\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{27F46300-2218-40C5-8DD8-B9C3DF2B09C0}|Solar.csproj|solutionrelative:views\\dashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F46300-2218-40C5-8DD8-B9C3DF2B09C0}|Solar.csproj|c:\\users\\tech\\documents\\visual studio works\\solar\\views\\downloadview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F46300-2218-40C5-8DD8-B9C3DF2B09C0}|Solar.csproj|solutionrelative:views\\downloadview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F46300-2218-40C5-8DD8-B9C3DF2B09C0}|Solar.csproj|c:\\users\\tech\\documents\\visual studio works\\solar\\views\\projectview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F46300-2218-40C5-8DD8-B9C3DF2B09C0}|Solar.csproj|solutionrelative:views\\projectview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F46300-2218-40C5-8DD8-B9C3DF2B09C0}|Solar.csproj|c:\\users\\tech\\documents\\visual studio works\\solar\\views\\dashboardview.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{27F46300-2218-40C5-8DD8-B9C3DF2B09C0}|Solar.csproj|solutionrelative:views\\dashboardview.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F46300-2218-40C5-8DD8-B9C3DF2B09C0}|Solar.csproj|c:\\users\\tech\\documents\\visual studio works\\solar\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{27F46300-2218-40C5-8DD8-B9C3DF2B09C0}|Solar.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F46300-2218-40C5-8DD8-B9C3DF2B09C0}|Solar.csproj|c:\\users\\tech\\documents\\visual studio works\\solar\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F46300-2218-40C5-8DD8-B9C3DF2B09C0}|Solar.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DownloadView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tech\\Documents\\Visual Studio Works\\Solar\\Views\\DownloadView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\DownloadView.xaml.cs",
+              "ToolTip": "C:\\Users\\tech\\Documents\\Visual Studio Works\\Solar\\Views\\DownloadView.xaml.cs",
+              "RelativeToolTip": "Views\\DownloadView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T17:31:19.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tech\\Documents\\Visual Studio Works\\Solar\\Views\\ProjectView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ProjectView.xaml.cs",
+              "ToolTip": "C:\\Users\\tech\\Documents\\Visual Studio Works\\Solar\\Views\\ProjectView.xaml.cs",
+              "RelativeToolTip": "Views\\ProjectView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T17:31:04.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardView.xaml",
+              "DocumentMoniker": "C:\\Users\\tech\\Documents\\Visual Studio Works\\Solar\\Views\\DashboardView.xaml",
+              "RelativeDocumentMoniker": "Views\\DashboardView.xaml",
+              "ToolTip": "C:\\Users\\tech\\Documents\\Visual Studio Works\\Solar\\Views\\DashboardView.xaml",
+              "RelativeToolTip": "Views\\DashboardView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T17:29:08.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DashboardView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tech\\Documents\\Visual Studio Works\\Solar\\Views\\DashboardView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\DashboardView.xaml.cs",
+              "ToolTip": "C:\\Users\\tech\\Documents\\Visual Studio Works\\Solar\\Views\\DashboardView.xaml.cs",
+              "RelativeToolTip": "Views\\DashboardView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T17:25:45.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardView.xaml",
+              "DocumentMoniker": "C:\\Users\\tech\\Documents\\Visual Studio Works\\Solar\\Views\\DashboardView.xaml",
+              "RelativeDocumentMoniker": "Views\\DashboardView.xaml",
+              "ToolTip": "C:\\Users\\tech\\Documents\\Visual Studio Works\\Solar\\Views\\DashboardView.xaml",
+              "RelativeToolTip": "Views\\DashboardView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T17:28:29.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tech\\Documents\\Visual Studio Works\\Solar\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\tech\\Documents\\Visual Studio Works\\Solar\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T17:23:51.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\tech\\Documents\\Visual Studio Works\\Solar\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\tech\\Documents\\Visual Studio Works\\Solar\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-07T17:23:45.903Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

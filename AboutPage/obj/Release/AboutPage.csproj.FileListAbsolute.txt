@@ -13,4 +13,5 @@ C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Release\AboutPage.cspr
 C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Release\AboutPage.exe
 C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Release\AboutPage.pdb
 C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Release\AboutPage_Content.g.cs
-C:\Users\tech\Documents\Visual Studio Works\AboutPage\bin\Release\2249554-uhd_3840_2160_24fps.mp4
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\obj\Release\AboutPage.exe.config
+C:\Users\tech\Documents\Visual Studio Works\AboutPage\bin\Release\Images\background.jpg

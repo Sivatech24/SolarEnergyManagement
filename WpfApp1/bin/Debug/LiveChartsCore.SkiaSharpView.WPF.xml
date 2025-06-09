@@ -1,0 +1,716 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LiveChartsCore.SkiaSharpView.WPF</name>
+    </assembly>
+    <members>
+        <member name="T:LiveChartsCore.SkiaSharpView.WPF.CartesianChart">
+            <inheritdoc cref="T:LiveChartsCore.Kernel.Sketches.ICartesianChartView" />
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:LiveChartsCore.SkiaSharpView.WPF.CartesianChart"/> class.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.SeriesProperty">
+            <summary>
+            The series property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.XAxesProperty">
+            <summary>
+            The x axes property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.YAxesProperty">
+            <summary>
+            The y axes property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.SectionsProperty">
+            <summary>
+            The sections property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.DrawMarginFrameProperty">
+            <summary>
+            The zoom mode property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.ZoomModeProperty">
+            <summary>
+            The zoom mode property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.ZoomingSpeedProperty">
+            <summary>
+            The zooming speed property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.FindingStrategyProperty">
+            <summary>
+            The tool tip finding strategy property
+            </summary>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.Series">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.ICartesianChartView.Series" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.XAxes">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.ICartesianChartView.XAxes" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.YAxes">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.ICartesianChartView.YAxes" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.Sections">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.ICartesianChartView.Sections" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.DrawMarginFrame">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.ICartesianChartView.DrawMarginFrame" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.ZoomMode">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.ICartesianChartView.ZoomMode" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.ZoomingSpeed">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.ICartesianChartView.ZoomingSpeed" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.TooltipFindingStrategy">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.ICartesianChartView.FindingStrategy" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.FindingStrategy">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.ICartesianChartView.FindingStrategy" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.MatchAxesScreenDataRatio">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.ICartesianChartView.MatchAxesScreenDataRatio" />
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.ScalePixelsToData(LiveChartsCore.Drawing.LvcPointD,System.Int32,System.Int32)">
+            <inheritdoc cref="M:LiveChartsCore.Kernel.Sketches.ICartesianChartView.ScalePixelsToData(LiveChartsCore.Drawing.LvcPointD,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.ScaleDataToPixels(LiveChartsCore.Drawing.LvcPointD,System.Int32,System.Int32)">
+            <inheritdoc cref="M:LiveChartsCore.Kernel.Sketches.ICartesianChartView.ScaleDataToPixels(LiveChartsCore.Drawing.LvcPointD,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.GetPointsAt(LiveChartsCore.Drawing.LvcPointD,LiveChartsCore.Measure.FindingStrategy,LiveChartsCore.Measure.FindPointFor)">
+            <inheritdoc cref="M:LiveChartsCore.Kernel.Sketches.IChartView.GetPointsAt(LiveChartsCore.Drawing.LvcPointD,LiveChartsCore.Measure.FindingStrategy,LiveChartsCore.Measure.FindPointFor)"/>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.GetVisualsAt(LiveChartsCore.Drawing.LvcPointD)">
+            <inheritdoc cref="M:LiveChartsCore.Kernel.Sketches.IChartView.GetVisualsAt(LiveChartsCore.Drawing.LvcPointD)"/>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.InitializeCore">
+            <summary>
+            Initializes the core.
+            </summary>
+            <exception cref="T:System.Exception">canvas not found</exception>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.CartesianChart.OnUnloaded">
+            <inheritdoc cref="M:LiveChartsCore.SkiaSharpView.WPF.Chart.OnUnloaded"/>
+        </member>
+        <member name="T:LiveChartsCore.SkiaSharpView.WPF.Chart">
+            <inheritdoc cref="T:LiveChartsCore.Kernel.Sketches.IChartView" />
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.core">
+            <summary>
+            The core
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.canvas">
+            <summary>
+            The canvas
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.legend">
+            <summary>
+            The legend
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.tooltip">
+            <summary>
+            The tool tip
+            </summary>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.Chart.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:LiveChartsCore.SkiaSharpView.WPF.Chart"/> class.
+            </summary>
+            <exception cref="T:System.Exception">Default colors are not valid</exception>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.TitleProperty">
+            <summary>
+            The sync context property.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.SyncContextProperty">
+            <summary>
+            The sync context property.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.DrawMarginProperty">
+            <summary>
+            The draw margin property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.AnimationsSpeedProperty">
+            <summary>
+            The animations speed property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.EasingFunctionProperty">
+            <summary>
+            The easing function property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.LegendPositionProperty">
+            <summary>
+            The legend position property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.LegendBackgroundPaintProperty">
+            <summary>
+            The legend background property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.LegendTextPaintProperty">
+            <summary>
+            The legend text paint property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.LegendTextSizeProperty">
+            <summary>
+            The legend text size property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.TooltipPositionProperty">
+            <summary>
+            The tool tip position property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.TooltipBackgroundPaintProperty">
+            <summary>
+            The tool tip background property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.TooltipTextPaintProperty">
+            <summary>
+            The tool tip text paint property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.TooltipTextSizeProperty">
+            <summary>
+            The tool tip text size property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.UpdateStartedCommandProperty">
+            <summary>
+            The update started command.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.PointerPressedCommandProperty">
+            <summary>
+            The pointer down command.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.PointerReleasedCommandProperty">
+            <summary>
+            The pointer up command.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.PointerMoveCommandProperty">
+            <summary>
+            The pointer move command.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.DoubleClickCommandProperty">
+            <summary>
+            The double click command.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.DataPointerDownCommandProperty">
+            <summary>
+            The data pointer down command.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.HoveredPointsChangedCommandProperty">
+            <summary>
+            The hovered points chaanged command property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.ChartPointPointerDownCommandProperty">
+            <summary>
+            The chart point pointer down command.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.VisualElementsPointerDownCommandProperty">
+            <summary>
+            The visual elements pointer down command.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.Chart.VisualElementsProperty">
+            <summary>
+            The visual elements property
+            </summary>
+        </member>
+        <member name="E:LiveChartsCore.SkiaSharpView.WPF.Chart.Measuring">
+            <inheritdoc cref="E:LiveChartsCore.Kernel.Sketches.IChartView.Measuring" />
+        </member>
+        <member name="E:LiveChartsCore.SkiaSharpView.WPF.Chart.UpdateStarted">
+            <inheritdoc cref="E:LiveChartsCore.Kernel.Sketches.IChartView.UpdateStarted" />
+        </member>
+        <member name="E:LiveChartsCore.SkiaSharpView.WPF.Chart.UpdateFinished">
+            <inheritdoc cref="E:LiveChartsCore.Kernel.Sketches.IChartView.UpdateFinished" />
+        </member>
+        <member name="E:LiveChartsCore.SkiaSharpView.WPF.Chart.DataPointerDown">
+            <inheritdoc cref="E:LiveChartsCore.Kernel.Sketches.IChartView.DataPointerDown" />
+        </member>
+        <member name="E:LiveChartsCore.SkiaSharpView.WPF.Chart.HoveredPointsChanged">
+            <inheritdoc cref="E:LiveChartsCore.Kernel.Sketches.IChartView.HoveredPointsChanged" />
+        </member>
+        <member name="E:LiveChartsCore.SkiaSharpView.WPF.Chart.ChartPointPointerDown">
+            <inheritdoc cref="E:LiveChartsCore.Kernel.Sketches.IChartView.ChartPointPointerDown" />
+        </member>
+        <member name="E:LiveChartsCore.SkiaSharpView.WPF.Chart.VisualElementsPointerDown">
+            <inheritdoc cref="E:LiveChartsCore.Kernel.Sketches.IChartView.VisualElementsPointerDown"/>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.LiveChartsCore#Kernel#Sketches#IChartView#DesignerMode">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IChartView.DesignerMode" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.CoreChart">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IChartView.CoreChart" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.Title">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IChartView.Title" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.SyncContext">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IChartView.SyncContext" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.DrawMargin">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IChartView.DrawMargin" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.CoreCanvas">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IChartView.CoreCanvas" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.AnimationsSpeed">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IChartView.AnimationsSpeed" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.EasingFunction">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IChartView.EasingFunction" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.LegendPosition">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IChartView.LegendPosition" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.TooltipPosition">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IChartView.TooltipPosition" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.TooltipBackgroundPaint">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IChartView.TooltipBackgroundPaint" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.TooltipTextPaint">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IChartView.TooltipTextPaint" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.TooltipTextSize">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IChartView.TooltipTextSize" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.Tooltip">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IChartView.Tooltip" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.LegendBackgroundPaint">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IChartView.LegendBackgroundPaint" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.LegendTextPaint">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IChartView.LegendTextPaint" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.LegendTextSize">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IChartView.LegendTextSize" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.Legend">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IChartView.Legend" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.AutoUpdateEnabled">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IChartView.AutoUpdateEnabled" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.UpdaterThrottler">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IChartView.UpdaterThrottler" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.UpdateStartedCommand">
+            <summary>
+            Gets or sets a command to execute when the chart update started.
+            </summary>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.PointerPressedCommand">
+            <summary>
+            Gets or sets a command to execute when the pointer goes down on the chart.
+            </summary>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.PointerReleasedCommand">
+            <summary>
+            Gets or sets a command to execute when the pointer goes up on the chart.
+            </summary>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.PointerMoveCommand">
+            <summary>
+            Gets or sets a command to execute when the pointer moves over the chart.
+            </summary>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.DoubleClickCommand">
+            <summary>
+            Gets or sets a command to execute when a double click happens on a chart.
+            </summary>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.DataPointerDownCommand">
+            <summary>
+            Gets or sets a command to execute when the pointer goes down on a data or data points.
+            </summary>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.HoveredPointsChangedCommand">
+            <summary>
+            Gets or sets a command to execute when the hovered points change.
+            </summary>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.ChartPointPointerDownCommand">
+            <summary>
+            Gets or sets a command to execute when the pointer goes down on a chart point.
+            </summary>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.VisualElementsPointerDownCommand">
+            <summary>
+            Gets or sets a command to execute when the pointer goes down on a visual element.
+            </summary>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.Chart.VisualElements">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IChartView.VisualElements" />
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.Chart.OnApplyTemplate">
+            <summary>
+            Called when the template is applied.
+            </summary>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.Chart.GetPointsAt(LiveChartsCore.Drawing.LvcPointD,LiveChartsCore.Measure.FindingStrategy,LiveChartsCore.Measure.FindPointFor)">
+            <inheritdoc cref="M:LiveChartsCore.Kernel.Sketches.IChartView.GetPointsAt(LiveChartsCore.Drawing.LvcPointD,LiveChartsCore.Measure.FindingStrategy,LiveChartsCore.Measure.FindPointFor)"/>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.Chart.GetVisualsAt(LiveChartsCore.Drawing.LvcPointD)">
+            <inheritdoc cref="M:LiveChartsCore.Kernel.Sketches.IChartView.GetVisualsAt(LiveChartsCore.Drawing.LvcPointD)"/>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.Chart.InitializeCore">
+            <summary>
+            Initializes the core.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.Chart.OnDependencyPropertyChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Called when a dependency property changes.
+            </summary>
+            <param name="o">The o.</param>
+            <param name="args">The <see cref="T:System.Windows.DependencyPropertyChangedEventArgs"/> instance containing the event data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.Chart.SetValueOrCurrentValue(System.Windows.DependencyProperty,System.Object)">
+            <summary>
+            Sets the local value of a dependency property, specified by its dependency property identifier.
+            If the object has not yet finished initializing, does so without changing its value source.
+            </summary>
+            <param name="dp">The identifier of the dependency property to set.</param>
+            <param name="value">The new local value.</param>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.Chart.OnUnloaded">
+            <summary>
+            Called before the chart is unloaded.
+            </summary>
+        </member>
+        <member name="T:LiveChartsCore.SkiaSharpView.WPF.GeoMap">
+            <summary>
+            Defines a geographic map.
+            </summary>
+            <seealso cref="T:System.Windows.Controls.Control" />
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.GeoMap.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:LiveChartsCore.SkiaSharpView.WPF.GeoMap"/> class.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.GeoMap.ActiveMapProperty">
+            <summary>
+            The active map property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.GeoMap.SyncContextProperty">
+            <summary>
+            The sync context property.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.GeoMap.ViewCommandProperty">
+            <summary>
+            The view command property.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.GeoMap.MapProjectionProperty">
+            <summary>
+            The map projection property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.GeoMap.SeriesProperty">
+            <summary>
+            The series property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.GeoMap.StrokeProperty">
+            <summary>
+            The stroke property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.GeoMap.FillProperty">
+            <summary>
+            The fill property
+            </summary>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.GeoMap.AutoUpdateEnabled">
+            <inheritdoc cref="P:LiveChartsCore.Geo.IGeoMapView.AutoUpdateEnabled" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.GeoMap.LiveChartsCore#Geo#IGeoMapView#DesignerMode">
+            <inheritdoc cref="P:LiveChartsCore.Geo.IGeoMapView.DesignerMode" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.GeoMap.SyncContext">
+            <inheritdoc cref="P:LiveChartsCore.Geo.IGeoMapView.SyncContext" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.GeoMap.ViewCommand">
+            <inheritdoc cref="P:LiveChartsCore.Geo.IGeoMapView.ViewCommand" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.GeoMap.Canvas">
+            <inheritdoc cref="P:LiveChartsCore.Geo.IGeoMapView.Canvas"/>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.GeoMap.ActiveMap">
+            <inheritdoc cref="P:LiveChartsCore.Geo.IGeoMapView.ActiveMap"/>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.GeoMap.LiveChartsCore#Geo#IGeoMapView#Width">
+            <inheritdoc cref="P:LiveChartsCore.Geo.IGeoMapView.Width"/>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.GeoMap.LiveChartsCore#Geo#IGeoMapView#Height">
+            <inheritdoc cref="P:LiveChartsCore.Geo.IGeoMapView.Height"/>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.GeoMap.MapProjection">
+            <inheritdoc cref="P:LiveChartsCore.Geo.IGeoMapView.MapProjection"/>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.GeoMap.Stroke">
+            <inheritdoc cref="P:LiveChartsCore.Geo.IGeoMapView.Stroke"/>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.GeoMap.Fill">
+            <inheritdoc cref="P:LiveChartsCore.Geo.IGeoMapView.Fill"/>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.GeoMap.Series">
+            <inheritdoc cref="P:LiveChartsCore.Geo.IGeoMapView.Series"/>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.GeoMap.OnApplyTemplate">
+            <summary>
+            Called when the template is applied.
+            </summary>
+        </member>
+        <member name="T:LiveChartsCore.SkiaSharpView.WPF.MotionCanvas">
+            <summary>
+            Defines the motion canvas control for WPF, <see cref="T:LiveChartsCore.Motion.CoreMotionCanvas"/>.
+            </summary>
+            <seealso cref="T:System.Windows.Controls.Control" />
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.MotionCanvas.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:LiveChartsCore.SkiaSharpView.WPF.MotionCanvas"/> class.
+            </summary>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.MotionCanvas.CanvasCore">
+            <summary>
+            Gets the canvas core.
+            </summary>
+            <value>
+            The canvas core.
+            </value>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.MotionCanvas.OnPaintSurface(System.Object,SkiaSharp.Views.Desktop.SKPaintSurfaceEventArgs)">
+            <inheritdoc cref="M:LiveChartsCore.SkiaSharpView.WPF.MotionCanvas.OnPaintSurface(System.Object,SkiaSharp.Views.Desktop.SKPaintSurfaceEventArgs)" />
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.MotionCanvas.OnPaintGlSurface(System.Object,SkiaSharp.Views.Desktop.SKPaintGLSurfaceEventArgs)">
+            <inheritdoc cref="M:LiveChartsCore.SkiaSharpView.WPF.MotionCanvas.OnPaintGlSurface(System.Object,SkiaSharp.Views.Desktop.SKPaintGLSurfaceEventArgs)" />
+        </member>
+        <member name="T:LiveChartsCore.SkiaSharpView.WPF.PieChart">
+            <inheritdoc cref="T:LiveChartsCore.Kernel.Sketches.IPieChartView" />
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.PieChart.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:LiveChartsCore.SkiaSharpView.WPF.PieChart"/> class.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.PieChart.SeriesProperty">
+            <summary>
+            The series property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.PieChart.IsClockwiseProperty">
+            <summary>
+            The isClockwise property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.PieChart.InitialRotationProperty">
+            <summary>
+            The initial rotation property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.PieChart.MaxAngleProperty">
+            <summary>
+            The maximum angle property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.PieChart.MaxValueProperty">
+            <summary>
+            The total property
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.PieChart.MinValueProperty">
+            <summary>
+            The start property
+            </summary>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.PieChart.Series">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IPieChartView.Series" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.PieChart.IsClockwise">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IPieChartView.IsClockwise" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.PieChart.InitialRotation">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IPieChartView.InitialRotation" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.PieChart.MaxAngle">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IPieChartView.MaxAngle" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.PieChart.MaxValue">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IPieChartView.MaxValue" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.PieChart.MinValue">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IPieChartView.MinValue" />
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.PieChart.GetPointsAt(LiveChartsCore.Drawing.LvcPointD,LiveChartsCore.Measure.FindingStrategy,LiveChartsCore.Measure.FindPointFor)">
+            <inheritdoc cref="M:LiveChartsCore.Kernel.Sketches.IChartView.GetPointsAt(LiveChartsCore.Drawing.LvcPointD,LiveChartsCore.Measure.FindingStrategy,LiveChartsCore.Measure.FindPointFor)"/>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.PieChart.GetVisualsAt(LiveChartsCore.Drawing.LvcPointD)">
+            <inheritdoc cref="M:LiveChartsCore.Kernel.Sketches.IChartView.GetVisualsAt(LiveChartsCore.Drawing.LvcPointD)"/>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.PieChart.InitializeCore">
+            <summary>
+            Initializes the core.
+            </summary>
+            <exception cref="T:System.Exception">canvas not found</exception>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.PieChart.OnUnloaded">
+            <inheritdoc cref="M:LiveChartsCore.SkiaSharpView.WPF.Chart.OnUnloaded"/>
+        </member>
+        <member name="T:LiveChartsCore.SkiaSharpView.WPF.PolarChart">
+            <inheritdoc cref="T:LiveChartsCore.Kernel.Sketches.IPolarChartView" />
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.PolarChart.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:LiveChartsCore.SkiaSharpView.WPF.PolarChart"/> class.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.PolarChart.FitToBoundsProperty">
+            <summary>
+            The fit to bounds property.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.PolarChart.TotalAngleProperty">
+            <summary>
+            The total angle property.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.PolarChart.InnerRadiusProperty">
+            <summary>
+            The inner radius property.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.PolarChart.InitialRotationProperty">
+            <summary>
+            The initial rotation property.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.PolarChart.SeriesProperty">
+            <summary>
+            The series property.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.PolarChart.AngleAxesProperty">
+            <summary>
+            The x axes property.
+            </summary>
+        </member>
+        <member name="F:LiveChartsCore.SkiaSharpView.WPF.PolarChart.RadiusAxesProperty">
+            <summary>
+            The y axes property
+            </summary>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.PolarChart.FitToBounds">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IPolarChartView.FitToBounds" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.PolarChart.TotalAngle">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IPolarChartView.TotalAngle" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.PolarChart.InnerRadius">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IPolarChartView.InnerRadius" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.PolarChart.InitialRotation">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IPolarChartView.InitialRotation" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.PolarChart.Series">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IPolarChartView.Series" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.PolarChart.AngleAxes">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IPolarChartView.AngleAxes" />
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.PolarChart.RadiusAxes">
+            <inheritdoc cref="P:LiveChartsCore.Kernel.Sketches.IPolarChartView.RadiusAxes" />
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.PolarChart.ScalePixelsToData(LiveChartsCore.Drawing.LvcPointD,System.Int32,System.Int32)">
+            <inheritdoc cref="M:LiveChartsCore.Kernel.Sketches.IPolarChartView.ScalePixelsToData(LiveChartsCore.Drawing.LvcPointD,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.PolarChart.ScaleDataToPixels(LiveChartsCore.Drawing.LvcPointD,System.Int32,System.Int32)">
+            <inheritdoc cref="M:LiveChartsCore.Kernel.Sketches.IPolarChartView.ScaleDataToPixels(LiveChartsCore.Drawing.LvcPointD,System.Int32,System.Int32)"/>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.PolarChart.GetPointsAt(LiveChartsCore.Drawing.LvcPointD,LiveChartsCore.Measure.FindingStrategy,LiveChartsCore.Measure.FindPointFor)">
+            <inheritdoc cref="M:LiveChartsCore.Kernel.Sketches.IChartView.GetPointsAt(LiveChartsCore.Drawing.LvcPointD,LiveChartsCore.Measure.FindingStrategy,LiveChartsCore.Measure.FindPointFor)"/>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.PolarChart.GetVisualsAt(LiveChartsCore.Drawing.LvcPointD)">
+            <inheritdoc cref="M:LiveChartsCore.Kernel.Sketches.IChartView.GetVisualsAt(LiveChartsCore.Drawing.LvcPointD)"/>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.PolarChart.InitializeCore">
+            <summary>
+            Initializes the core.
+            </summary>
+            <exception cref="T:System.Exception">canvas not found</exception>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.PolarChart.OnUnloaded">
+            <inheritdoc cref="M:LiveChartsCore.SkiaSharpView.WPF.Chart.OnUnloaded"/>
+        </member>
+        <member name="T:LiveChartsCore.SkiaSharpView.WPF.ResolutionHelper">
+            <summary>
+            A helper class to get the screen resolution.
+            </summary>
+            <remarks>
+            Initializes a new instance of the <see cref="T:LiveChartsCore.SkiaSharpView.WPF.ResolutionHelper"/> class.
+            </remarks>
+            <param name="dpix">The horizontal resolution.</param>
+            <param name="dpiy">The vertical resolution.</param>
+        </member>
+        <member name="M:LiveChartsCore.SkiaSharpView.WPF.ResolutionHelper.#ctor(System.Single,System.Single)">
+            <summary>
+            A helper class to get the screen resolution.
+            </summary>
+            <remarks>
+            Initializes a new instance of the <see cref="T:LiveChartsCore.SkiaSharpView.WPF.ResolutionHelper"/> class.
+            </remarks>
+            <param name="dpix">The horizontal resolution.</param>
+            <param name="dpiy">The vertical resolution.</param>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.ResolutionHelper.dpix">
+            <summary>
+            Gets or sets the horizontal dpi.
+            </summary>
+        </member>
+        <member name="P:LiveChartsCore.SkiaSharpView.WPF.ResolutionHelper.dpiy">
+            <summary>
+            Gets or sets the vertical dpi.
+            </summary>
+        </member>
+    </members>
+</doc>

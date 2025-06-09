@@ -129,13 +129,13 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Video\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="2249554-uhd_3840_2160_24fps.mp4">
+    <Content Include="2249554-uhd_3840_2160_24fps.mp4" />
+    <Content Include="Images\background.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Video\2249554-uhd_3840_2160_24fps.mp4" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

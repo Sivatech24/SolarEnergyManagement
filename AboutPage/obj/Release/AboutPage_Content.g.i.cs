@@ -9,5 +9,7 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("2249554-uhd_3840_2160_24fps.mp4")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/background.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("video/2249554-uhd_3840_2160_24fps.mp4")]
 
 

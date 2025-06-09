@@ -1,8 +1,8 @@
 ﻿<Window x:Class="SolarEnergyManagment.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Loaded="Window_Loaded"
-        Title="Home Dashboard" Height="600" Width="1000"
+        
+        Title="SolarEnergyManagment" Height="690" Width="1000"
         WindowStartupLocation="CenterScreen">
 
     <Grid>
@@ -18,23 +18,34 @@
             <TextBlock Text="Navigation" FontSize="20" Foreground="White" Margin="10"/>
 
             <!-- Buttons for Navigation -->
-            <Button Content="AboutPage" Click="LaunchApp_Click" Tag="AboutPage\AboutPage.exe" Margin="10" Width="280" Height="40"/>
+            <Button Content="SolarDataAnalytics" Click="LaunchApp_Click" Tag="SolarDataAnalytics\SolarDataAnalytics.exe" Margin="10" Width="280" Height="40"/>
+            <Button Content="RealTime" Click="LaunchApp_Click" Tag="RealTime\RealTimeRender.exe" Margin="10" Width="280" Height="40"/>
             <Button Content="DataManagement" Click="LaunchApp_Click" Tag="DataManagement\DataManagement.exe" Margin="10" Width="280" Height="40"/>
             <Button Content="Forecast And Analytics" Click="LaunchApp_Click" Tag="Forecast And Analytics\Forecast And Analytics.exe" Margin="10" Width="280" Height="40"/>
             <Button Content="Inverter Failure Predicting" Click="LaunchApp_Click" Tag="Inverter Failure Predicting\Inverter Failure Predicting.exe" Margin="10" Width="280" Height="40"/>
             <Button Content="Settings" Click="LaunchApp_Click" Tag="Settings\Settings.exe" Margin="10" Width="280" Height="40"/>
             <Button Content="SimpleChatBot" Click="LaunchApp_Click" Tag="SimpleChatBot\SimpleChatBot.exe" Margin="10" Width="280" Height="40"/>
-            <Button Content="SolarDataAnalytics" Click="LaunchApp_Click" Tag="SolarDataAnalytics\SolarDataAnalytics.exe" Margin="10" Width="280" Height="40"/>
+            <Button Content="AboutPage" Click="LaunchApp_Click" Tag="AboutPage\AboutPage.exe" Margin="10" Width="280" Height="40"/>
+
+            <Button Content="Website"
+        Click="OpenUrl_Click"
+        Tag="https://sivatech24.github.io/solar-power-dashboard-analysis/"
+        Margin="10"
+        Width="280"
+        Height="40"/>
+            <Button Content="GitHub Project"
+        Click="OpenUrl_Click"
+        Tag="https://github.com/Sivatech24/AI-Driven-Solar-Energy-Management-Forecasting-Optimization-Fault-Detection"
+        Margin="10"
+        Width="280"
+        Height="40"/>
         </StackPanel>
 
         <!-- Video area -->
-        <MediaElement Name="HomeVideo"
-              Grid.Column="1"
-              LoadedBehavior="Manual"
-              UnloadedBehavior="Manual"
-              Stretch="Fill"
-              IsMuted="True"
-              Source="C:\Users\tech\Documents\Visual Studio Works\SolarEnergyManagment\2249554-uhd_3840_2160_24fps.mp4"
-              MediaEnded="HomeVideo_MediaEnded" />
+        <Image Name="HomeImage"
+            Grid.Column="1"
+            Stretch="Fill"
+            Loaded="HomeImage_Loaded"
+            RenderOptions.BitmapScalingMode="HighQuality" />
     </Grid>
 </Window>
